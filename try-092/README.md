@@ -1,2 +1,0 @@
-# data
-© OpenStreetMap contributors
