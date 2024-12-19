@@ -1,0 +1,15 @@
+[mapserver.qgis_backend]
+# QGIS Server settings
+project_basedir = "assets"
+qgs.path = "/qgis"
+qgz.path = "/qgz"
+
+[[tileset]]
+# Raster tiles settings
+name = "sapporo"
+map_service = { project = "sapporo", suffix = "qgz", layers = "all" }
+
+[[tileset]]
+# Vector tiles settings
+name = "plateau"
+pmtiles = { path = "assets/plateau.pmtiles" }
